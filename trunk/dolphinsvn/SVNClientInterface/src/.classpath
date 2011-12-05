@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="D:/mohan/R&amp;D API&apos;s/svnkit-1.3.4.6888/trilead.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/mohan/R&amp;D API&apos;s/svnkit-1.3.4.6888/svnkit.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/mohan/R&amp;D API&apos;s/svnkit-1.3.4.6888/svnkit-cli.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SVNProperties"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CommonFileReader"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
