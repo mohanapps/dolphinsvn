@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svnclient-configuration>
+	<svnrespository respositoryname="speede_repository_admin" type="source" url="svn://172.16.8.50/speede_repository_admin" username="admin" password="admin1234">
+		<environment envname="UAT">
+			<node-mapping nodename="SecureWeb" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/speede_web/" />
+			<node-mapping nodename="SPEED-e_MOCK" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/speede_app/" />
+			<node-mapping nodename="SPEED-eMDB" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/speede_app/SPEED-e_MDB/" />
+			<node-mapping nodename="SPEED-eEJB" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/speede_app/" />
+			<node-mapping nodename="STeADY" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/speede_app/" />
+			<node-mapping nodename="AutoIDeASUtility" localnoderoot ="D:/mohan/Code Management/WorkSpace/UAT" remotenoderoot = "/UAT/trunk/Utilities/java/" />
+		</environment>
+		<environment envname="PRODUCTION">
+			<node-mapping nodename="SecureWeb" localnoderoot ="D:/mohan/Code Management/WorkSpace/MOCK" remotenoderoot = "/MOCK/trunk/speede_web/" />
+			<node-mapping nodename="SPEED-e_MOCK" localnoderoot ="D:/mohan/Code Management/WorkSpace/MOCK" remotenoderoot = "/MOCK/trunk/speede_app/" />
+			<node-mapping nodename="SPEED-eMDB" localnoderoot ="D:/mohan/Code Management/WorkSpace/MOCK" remotenoderoot = "/MOCK/trunk/speede_app/SPEED-e_MDB/" />
+			<node-mapping nodename="SPEED-eEJB" localnoderoot ="D:/mohan/Code Management/WorkSpace/MOCK" remotenoderoot = "/MOCK/trunk/speede_app/" />
+			<node-mapping nodename="STeADY" localnoderoot ="D:/mohan/Code Management/WorkSpace/MOCK" remotenoderoot = "/MOCK/trunk/speede_app/" />
+		</environment>
+	</svnrespository>
+	<svnrespository respositoryname="speede_repository_dev" url="svn://172.16.8.50/speede_repository" type="destination" username="mohan" password="mohan">
+		<environment envname="DEVELOPMENT">
+			<node-mapping nodename="SecureWeb" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/trunk/NewDM_System_Env/Development/speede_web/" />	
+			<node-mapping nodename="SPEED-e_MOCK" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/trunk/NewDM_System_Env/Development/speede_app/" />
+			<node-mapping nodename="SPEED-eMDB" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/trunk/NewDM_System_Env/Development/speede_app/SPEED-e_MDB/" />
+			<node-mapping nodename="SPEED-eEJB" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/trunk/NewDM_System_Env/Development/speede_app/" />
+			<node-mapping nodename="STeADY" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/trunk/NewDM_System_Env/Development/speede_app/" />	
+			<node-mapping nodename="AutoIDeASUtility" localnoderoot ="D:/mohan/Code Management/WorkSpace/NewDM_Development_Env" remotenoderoot = "/Development/Utilities/java/AutoIDeASUtility/" />
+		</environment>
+	</svnrespository>
+</svnclient-configuration>
